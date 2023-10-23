@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.custom-control-label::before {
+    border: 1px solid #007bff;
+}
+
+.custom-control-label::after {
+    border: 1px solid #007bff;
+}
+
+.forgot-password {
+    margin-top: 15px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-img-top {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.card-img-top:hover {
+    opacity: 0.7;
+}
